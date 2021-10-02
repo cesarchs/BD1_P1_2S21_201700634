@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="DETALLE_ACTOR" directorySegmentName="seg_0" id="E37883FA-E9F3-3622-2316-425E93BBE17B">
+<createdBy>cesarchs</createdBy>
+<createdTime>2021-09-25 12:25:42 UTC</createdTime>
+<ownerDesignName>LOGICO</ownerDesignName>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="fk_id_actor" id="7E007FC4-4801-A510-65EB-1C72DD7CC993">
+<createdBy>cesarchs</createdBy>
+<createdTime>2021-09-25 12:25:42 UTC</createdTime>
+<ownerDesignName>LOGICO</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="fk_id_pelicula" id="87061C14-3A03-FF7F-0E50-386706B6976B">
+<createdBy>cesarchs</createdBy>
+<createdTime>2021-09-25 12:25:42 UTC</createdTime>
+<ownerDesignName>LOGICO</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="descripcion_detalle" id="B4AD664A-FB75-CDA1-D4CA-94EDA9A8FA67">
+<createdBy>cesarchs</createdBy>
+<createdTime>2021-09-25 12:25:42 UTC</createdTime>
+<ownerDesignName>LOGICO</ownerDesignName>
+<defaultValue>&apos;Descripcion detalle actor&apos;</defaultValue>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="DETALLE_ACTOR_ACTOR_FK" id="7DACFA71-0593-8F21-DF45-8945FCB52488">
+<createdBy>cesarchs</createdBy>
+<createdTime>2021-09-25 12:25:42 UTC</createdTime>
+<ownerDesignName>LOGICO</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="DETALLE_ACTOR_PELICULA_FK" id="A4319B9F-91E8-DF1F-6B5D-8F7B5D0CF613">
+<createdBy>cesarchs</createdBy>
+<createdTime>2021-09-25 12:25:42 UTC</createdTime>
+<ownerDesignName>LOGICO</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="DETALLE_ACTOR_PK" id="62EE8397-F1B2-4182-7F54-00C2B3DDEDDA">
+<createdBy>cesarchs</createdBy>
+<createdTime>2021-09-25 12:25:42 UTC</createdTime>
+<ownerDesignName>LOGICO</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

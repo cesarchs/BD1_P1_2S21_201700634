@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="BASES1PR1" id="6EACDF1D-0398-1F3C-8522-F01B4BC11F2B" mainViewID="9487BC2F-899A-06CA-0862-409D7D903F5E">
+<createdBy>cesarchs</createdBy>
+<createdTime>2021-09-25 12:25:42 UTC</createdTime>
+<ownerDesignName>LOGICO</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>01F6E6D1-21D0-CFBD-ABDD-3988D1813575</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>BASES1PR1.sql</fileName>
+<pathName>D:\escritorio\BD1 entregable P1\SCRIPS</pathName>
+<dbType>17</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>

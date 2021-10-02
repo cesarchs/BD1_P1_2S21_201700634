@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="DETALLE_ACTOR_ACTOR_FK" directorySegmentName="seg_0" id="0E8A4631-09B6-B992-6E17-6D6214E8D6B1">
+<createdBy>cesarchs</createdBy>
+<createdTime>2021-09-25 12:30:34 UTC</createdTime>
+<generatorID>F48ACC38-C407-508D-125D-2E720A02C15A</generatorID>
+<ownerDesignName>LOGICO</ownerDesignName>
+<engineerTo>
+<item key="80AC1D09-1C11-D00C-0821-B5DA8E334D64" value="true"/>
+<item key="6EACDF1D-0398-1F3C-8522-F01B4BC11F2B" value="true"/>
+</engineerTo>
+<sourcePk>240E8C8A-88A4-7E97-9586-1A7C1D60A807</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1D01EBA5-3057-84B4-7463-BDD773A1E824</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>012D353D-14A4-4C04-D6F9-F72759FDAB70</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

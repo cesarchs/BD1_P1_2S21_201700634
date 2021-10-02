@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A76E195F-C1E0-FF7B-2F9F-64E0580AEE20" name="CLASIFICACION">
+<createdBy>cesarchs</createdBy>
+<createdTime>2021-09-25 12:30:34 UTC</createdTime>
+<generatorID>5132A0BC-747F-FB5F-A299-E19186F97465</generatorID>
+<ownerDesignName>LOGICO</ownerDesignName>
+<engineerTo>
+<item key="80AC1D09-1C11-D00C-0821-B5DA8E334D64" value="true"/>
+<item key="6EACDF1D-0398-1F3C-8522-F01B4BC11F2B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id clasificacion" id="92B2F525-9032-16C2-B67D-478F1AD2F690">
+<createdBy>cesarchs</createdBy>
+<createdTime>2021-09-25 12:30:34 UTC</createdTime>
+<generatorID>D38F9F42-BB21-A31B-B47C-FAD7193CBE58</generatorID>
+<ownerDesignName>LOGICO</ownerDesignName>
+<engineerTo>
+<item key="80AC1D09-1C11-D00C-0821-B5DA8E334D64" value="true"/>
+<item key="6EACDF1D-0398-1F3C-8522-F01B4BC11F2B" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4ECFBF2D-90D9-A2FC-F90D-BBE3581064BE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="clasificacion" id="D190FEAC-10A8-B405-58DA-E097AFDA7AF9">
+<createdBy>cesarchs</createdBy>
+<createdTime>2021-09-25 12:30:34 UTC</createdTime>
+<generatorID>1F7E930C-D352-3347-9C5B-5548996EB4F3</generatorID>
+<ownerDesignName>LOGICO</ownerDesignName>
+<engineerTo>
+<item key="80AC1D09-1C11-D00C-0821-B5DA8E334D64" value="true"/>
+<item key="6EACDF1D-0398-1F3C-8522-F01B4BC11F2B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E2073DFF-AEC9-6CD8-DB69-5EB84297DC8F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B4F6C504-C72D-31B1-8098-8C19FB8EE500" name="CLASIFICACION PK">
+<createdBy>cesarchs</createdBy>
+<createdTime>2021-09-25 12:30:34 UTC</createdTime>
+<generatorID>62E37E56-DA87-8FE1-A895-88833D43EF1F</generatorID>
+<ownerDesignName>LOGICO</ownerDesignName>
+<engineerTo>
+<item key="80AC1D09-1C11-D00C-0821-B5DA8E334D64" value="true"/>
+<item key="6EACDF1D-0398-1F3C-8522-F01B4BC11F2B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>92B2F525-9032-16C2-B67D-478F1AD2F690</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F48ACC38-C407-508D-125D-2E720A02C15A" containerWithKeyObject="E37883FA-E9F3-3622-2316-425E93BBE17B" localFKIndex="7DACFA71-0593-8F21-DF45-8945FCB52488" name="DETALLE_ACTOR_ACTOR_FK">
+<sourceDDLFile>BASES1PR1.sql</sourceDDLFile>
+<createdBy>cesarchs</createdBy>
+<createdTime>2021-09-25 12:25:42 UTC</createdTime>
+<ownerDesignName>LOGICO</ownerDesignName>
+<referredTableLongName>ACTOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1E372EAA-8143-C90D-D2DC-B880FBFA733C</referredTableID>
+<keyObject>574CD2C8-CBC4-6A7A-E6AB-51DD33DF0984</keyObject>
+<referredKeyID>574CD2C8-CBC4-6A7A-E6AB-51DD33DF0984</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_actor</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

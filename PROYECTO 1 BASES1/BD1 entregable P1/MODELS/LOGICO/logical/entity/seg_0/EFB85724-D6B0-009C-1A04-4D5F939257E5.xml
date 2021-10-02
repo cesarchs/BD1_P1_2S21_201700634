@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EFB85724-D6B0-009C-1A04-4D5F939257E5" name="TIENDA PELICULA">
+<createdBy>cesarchs</createdBy>
+<createdTime>2021-09-25 12:30:34 UTC</createdTime>
+<generatorID>80F4481E-4A7C-9B5A-DC03-2CA47BD58AC5</generatorID>
+<ownerDesignName>LOGICO</ownerDesignName>
+<engineerTo>
+<item key="80AC1D09-1C11-D00C-0821-B5DA8E334D64" value="true"/>
+<item key="6EACDF1D-0398-1F3C-8522-F01B4BC11F2B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id tienda pelicula" id="1BBA3F3F-D083-4979-7EF5-A88B84EE2FCD">
+<createdBy>cesarchs</createdBy>
+<createdTime>2021-09-25 12:30:34 UTC</createdTime>
+<generatorID>9CC2AFC8-8793-4D08-C2FC-552ABF0FCAA7</generatorID>
+<ownerDesignName>LOGICO</ownerDesignName>
+<engineerTo>
+<item key="80AC1D09-1C11-D00C-0821-B5DA8E334D64" value="true"/>
+<item key="6EACDF1D-0398-1F3C-8522-F01B4BC11F2B" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4ECFBF2D-90D9-A2FC-F90D-BBE3581064BE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tienda pelicula" id="6BEA2406-73FB-5ABC-4333-AD65B422ADAA">
+<createdBy>cesarchs</createdBy>
+<createdTime>2021-09-25 12:30:34 UTC</createdTime>
+<generatorID>E1CE5F5B-9580-D578-23AD-69429EA24717</generatorID>
+<ownerDesignName>LOGICO</ownerDesignName>
+<engineerTo>
+<item key="80AC1D09-1C11-D00C-0821-B5DA8E334D64" value="true"/>
+<item key="6EACDF1D-0398-1F3C-8522-F01B4BC11F2B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E2073DFF-AEC9-6CD8-DB69-5EB84297DC8F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fk id tienda" id="CD753BEB-4E50-9CE7-A67F-A65FFAA16BC8">
+<createdBy>cesarchs</createdBy>
+<createdTime>2021-09-25 12:30:34 UTC</createdTime>
+<generatorID>262D9FBB-61EA-4491-7F1F-DADFD41CCC35</generatorID>
+<ownerDesignName>LOGICO</ownerDesignName>
+<engineerTo>
+<item key="80AC1D09-1C11-D00C-0821-B5DA8E334D64" value="true"/>
+<item key="6EACDF1D-0398-1F3C-8522-F01B4BC11F2B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>F3E58F0C-2854-1878-C52E-619A93997DD5</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4ECFBF2D-90D9-A2FC-F90D-BBE3581064BE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fk id pelicula" id="2113FA40-F4EE-DB91-FFA6-E258B52A9BF5">
+<createdBy>cesarchs</createdBy>
+<createdTime>2021-09-25 12:30:34 UTC</createdTime>
+<generatorID>376B6F57-E74A-DC31-205B-475A8CC502BA</generatorID>
+<ownerDesignName>LOGICO</ownerDesignName>
+<engineerTo>
+<item key="80AC1D09-1C11-D00C-0821-B5DA8E334D64" value="true"/>
+<item key="6EACDF1D-0398-1F3C-8522-F01B4BC11F2B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>9E2CAFC4-AAEE-38CD-F800-50427B4C0A68</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4ECFBF2D-90D9-A2FC-F90D-BBE3581064BE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1FE80862-B844-EF33-37CE-DE2A10B53919" name="TIENDA PELICULA PK">
+<createdBy>cesarchs</createdBy>
+<createdTime>2021-09-25 12:30:34 UTC</createdTime>
+<generatorID>27F0B9A0-5A28-A21E-4600-27BC206EB3E6</generatorID>
+<ownerDesignName>LOGICO</ownerDesignName>
+<engineerTo>
+<item key="80AC1D09-1C11-D00C-0821-B5DA8E334D64" value="true"/>
+<item key="6EACDF1D-0398-1F3C-8522-F01B4BC11F2B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1BBA3F3F-D083-4979-7EF5-A88B84EE2FCD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

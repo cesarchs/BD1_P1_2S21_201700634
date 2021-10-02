@@ -1,0 +1,198 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DED957EF-60A8-2BD5-EC88-F840FE255597" name="EMPLEADO">
+<sourceDDLFile>BASES1PR1.sql</sourceDDLFile>
+<createdBy>cesarchs</createdBy>
+<createdTime>2021-09-25 12:25:42 UTC</createdTime>
+<ownerDesignName>LOGICO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_empleado" id="E79E1982-F97D-2E42-6055-E89738E3E002">
+<sourceDDLFile>BASES1PR1.sql</sourceDDLFile>
+<createdBy>cesarchs</createdBy>
+<createdTime>2021-09-25 12:25:42 UTC</createdTime>
+<ownerDesignName>LOGICO</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4ECFBF2D-90D9-A2FC-F90D-BBE3581064BE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="nombre_empleado" id="29A3B6BC-8C2F-63C4-5208-435EB8DE1A52">
+<sourceDDLFile>BASES1PR1.sql</sourceDDLFile>
+<createdBy>cesarchs</createdBy>
+<createdTime>2021-09-25 12:25:42 UTC</createdTime>
+<ownerDesignName>LOGICO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E2073DFF-AEC9-6CD8-DB69-5EB84297DC8F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido_empleado" id="D9E43CB8-37B1-8988-F3C2-F945685E606C">
+<sourceDDLFile>BASES1PR1.sql</sourceDDLFile>
+<createdBy>cesarchs</createdBy>
+<createdTime>2021-09-25 12:25:42 UTC</createdTime>
+<ownerDesignName>LOGICO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E2073DFF-AEC9-6CD8-DB69-5EB84297DC8F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="correo_empleado" id="7CD382E9-D4C9-257D-CCE6-8F027BCFB583">
+<sourceDDLFile>BASES1PR1.sql</sourceDDLFile>
+<createdBy>cesarchs</createdBy>
+<createdTime>2021-09-25 12:25:42 UTC</createdTime>
+<ownerDesignName>LOGICO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E2073DFF-AEC9-6CD8-DB69-5EB84297DC8F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="empleado_activo" id="6C760FA1-21FB-285C-1E51-5010938796A0">
+<sourceDDLFile>BASES1PR1.sql</sourceDDLFile>
+<createdBy>cesarchs</createdBy>
+<createdTime>2021-09-25 12:25:42 UTC</createdTime>
+<ownerDesignName>LOGICO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E2073DFF-AEC9-6CD8-DB69-5EB84297DC8F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tienda_empleado" id="AD4542EE-185C-CCC8-23AB-161FE3490D5A">
+<sourceDDLFile>BASES1PR1.sql</sourceDDLFile>
+<createdBy>cesarchs</createdBy>
+<createdTime>2021-09-25 12:25:42 UTC</createdTime>
+<ownerDesignName>LOGICO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E2073DFF-AEC9-6CD8-DB69-5EB84297DC8F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="usuario_empleado" id="88F0D34F-69DD-8F65-7157-F698887CDAD9">
+<sourceDDLFile>BASES1PR1.sql</sourceDDLFile>
+<createdBy>cesarchs</createdBy>
+<createdTime>2021-09-25 12:25:42 UTC</createdTime>
+<ownerDesignName>LOGICO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E2073DFF-AEC9-6CD8-DB69-5EB84297DC8F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="contrasena_empleado" id="E2A3EA69-1755-2B73-E9D5-FF86F8EB66A8">
+<sourceDDLFile>BASES1PR1.sql</sourceDDLFile>
+<createdBy>cesarchs</createdBy>
+<createdTime>2021-09-25 12:25:42 UTC</createdTime>
+<ownerDesignName>LOGICO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E2073DFF-AEC9-6CD8-DB69-5EB84297DC8F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion_empleado" id="5B6C08C2-0300-D238-AC70-4CFEE12C1C39">
+<sourceDDLFile>BASES1PR1.sql</sourceDDLFile>
+<createdBy>cesarchs</createdBy>
+<createdTime>2021-09-25 12:25:42 UTC</createdTime>
+<ownerDesignName>LOGICO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E2073DFF-AEC9-6CD8-DB69-5EB84297DC8F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="codigo_postal_empleado" id="5DDC601F-E08A-783B-78FC-E42E3179DA4F">
+<sourceDDLFile>BASES1PR1.sql</sourceDDLFile>
+<createdBy>cesarchs</createdBy>
+<createdTime>2021-09-25 12:25:42 UTC</createdTime>
+<ownerDesignName>LOGICO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E2073DFF-AEC9-6CD8-DB69-5EB84297DC8F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fk_id_tienda" id="183FF268-265F-A464-DDCD-B2CC6F422B48">
+<sourceDDLFile>BASES1PR1.sql</sourceDDLFile>
+<createdBy>cesarchs</createdBy>
+<createdTime>2021-09-25 12:25:42 UTC</createdTime>
+<ownerDesignName>LOGICO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4ECFBF2D-90D9-A2FC-F90D-BBE3581064BE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6EB4F673-82EE-03A1-1C44-DC7EF495BCF5" referredColumn="7B7811BD-B696-22B4-3225-9F1A4B6F7423"/>
+</associations>
+</Column>
+<Column name="fk_id_ciudad" id="B5F43255-D9DB-3E45-E2DB-CB35AC3DDE39">
+<sourceDDLFile>BASES1PR1.sql</sourceDDLFile>
+<createdBy>cesarchs</createdBy>
+<createdTime>2021-09-25 12:25:42 UTC</createdTime>
+<ownerDesignName>LOGICO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4ECFBF2D-90D9-A2FC-F90D-BBE3581064BE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4AEE515F-7262-3122-9779-BCAE0ED0F453" referredColumn="6614C67C-ACAE-55E5-7ADB-CB720DBE2986"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="58083974-0D60-85AD-75B0-01832731F9B6" name="EMPLEADO_PK">
+<sourceDDLFile>BASES1PR1.sql</sourceDDLFile>
+<createdBy>cesarchs</createdBy>
+<createdTime>2021-09-25 12:25:42 UTC</createdTime>
+<ownerDesignName>LOGICO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E79E1982-F97D-2E42-6055-E89738E3E002"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="40E2C0F1-1420-3EB6-43C2-6BC5CA6A379C" name="EMPLEADO_TIENDA_FK">
+<createdBy>cesarchs</createdBy>
+<createdTime>2021-09-25 12:25:42 UTC</createdTime>
+<ownerDesignName>LOGICO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="183FF268-265F-A464-DDCD-B2CC6F422B48"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="714C7741-7F08-8CA8-5320-03AAD4F106DB" name="EMPLEADO_CIUDAD_FK">
+<createdBy>cesarchs</createdBy>
+<createdTime>2021-09-25 12:25:42 UTC</createdTime>
+<ownerDesignName>LOGICO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5F43255-D9DB-3E45-E2DB-CB35AC3DDE39"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="DETALLE_LENGUAJE_PELICULA_FK" directorySegmentName="seg_0" id="EABE740A-9927-82AC-6B00-ECD25D16E28A">
+<createdBy>cesarchs</createdBy>
+<createdTime>2021-09-25 12:30:34 UTC</createdTime>
+<generatorID>659BBFC0-1C5F-A98F-B96A-EAB03F63B3F3</generatorID>
+<ownerDesignName>LOGICO</ownerDesignName>
+<engineerTo>
+<item key="80AC1D09-1C11-D00C-0821-B5DA8E334D64" value="true"/>
+<item key="6EACDF1D-0398-1F3C-8522-F01B4BC11F2B" value="true"/>
+</engineerTo>
+<sourcePk>3CCE0E0D-C755-2B89-301A-EC94FCB7C621</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>08767C53-D946-CAB3-7235-D0400A3855AC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B0A6FDD6-FA32-D4AF-081C-6F4F49E6B0D9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

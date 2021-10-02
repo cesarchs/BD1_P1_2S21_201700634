@@ -1,0 +1,65 @@
+	CLIENTES 
+nombre
+apellido
+correo electronico
+direccion  (completa, distrito y codigo postal)
+fecha registro al sis
+estado activo
+tienda favorita (facil de llegar)
+
+
+	CUIDAD 
+nombre
+pais
+
+
+	EMPLEADO
+nombre
+apellido
+direccion
+corrreo electronico
+Estado Activo
+usuario
+contrasena
+tienda asignada
+
+
+	TIENDA 
+direccion
+(hay un empleado como jefe)
+
+
+	ALQUILER
+cantidad a pagar
+fecha pago
+empleado (para comision)
+fecha rentada
+fecha regresar pelicula
+
+
+	INVENTARIO (manejado por tiendas)
+
+
+	PELICULA
+titulo 
+descripcion 
+anio lanzamiento
+duracion (min)
+cantidad de dias, puede ser rentada
+costo renta
+costo por mal estado
+clasificacion pelicula 
+
+
+	CATEGORIA
+
+
+	ACTORES 
+nombre
+apellido
+
+
+
+	LENGUAJE 
+
+

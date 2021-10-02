@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CLIENTE_CIUDAD_FK" directorySegmentName="seg_0" id="14D5B421-6921-5883-D995-35CB58AA200A">
+<createdBy>cesarchs</createdBy>
+<createdTime>2021-09-25 12:30:34 UTC</createdTime>
+<generatorID>4DCE341E-E8D5-BAF8-F0D2-28B49C1AD916</generatorID>
+<ownerDesignName>LOGICO</ownerDesignName>
+<engineerTo>
+<item key="80AC1D09-1C11-D00C-0821-B5DA8E334D64" value="true"/>
+<item key="6EACDF1D-0398-1F3C-8522-F01B4BC11F2B" value="true"/>
+</engineerTo>
+<sourcePk>539ACAFE-C37F-9953-EAC5-1F27292F61BC</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B5590F15-0157-61A5-09E6-103FADD6CA00</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F18A2B63-4C99-3D36-C3B0-38816A4326C8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AE042358-0FF1-F535-147A-6547A4632AB4" containerWithKeyObject="382B43E8-2312-18BF-FC34-8B39568DA950" localFKIndex="58E9228F-FA85-2CEC-04AC-52AFA78EDFED" name="PELICULA_CLASIFICACION_FK">
+<sourceDDLFile>BASES1PR1.sql</sourceDDLFile>
+<createdBy>cesarchs</createdBy>
+<createdTime>2021-09-25 12:25:42 UTC</createdTime>
+<ownerDesignName>LOGICO</ownerDesignName>
+<referredTableLongName>CLASIFICACION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5132A0BC-747F-FB5F-A299-E19186F97465</referredTableID>
+<keyObject>62E37E56-DA87-8FE1-A895-88833D43EF1F</keyObject>
+<referredKeyID>62E37E56-DA87-8FE1-A895-88833D43EF1F</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id_clasificacion</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

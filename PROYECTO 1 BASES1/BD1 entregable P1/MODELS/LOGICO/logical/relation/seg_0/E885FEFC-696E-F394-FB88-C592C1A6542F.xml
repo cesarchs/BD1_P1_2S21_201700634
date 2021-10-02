@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ALQUILER_EMPLEADO_FK" directorySegmentName="seg_0" id="E885FEFC-696E-F394-FB88-C592C1A6542F">
+<createdBy>cesarchs</createdBy>
+<createdTime>2021-09-25 12:30:34 UTC</createdTime>
+<generatorID>A4FF8091-F6DE-1689-0642-4A96257668F8</generatorID>
+<ownerDesignName>LOGICO</ownerDesignName>
+<engineerTo>
+<item key="80AC1D09-1C11-D00C-0821-B5DA8E334D64" value="true"/>
+<item key="6EACDF1D-0398-1F3C-8522-F01B4BC11F2B" value="true"/>
+</engineerTo>
+<sourcePk>462D46FD-4C21-BB23-16BD-BEBC09F07D23</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E93904B5-F763-C793-605C-A3FBA11AF994</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C09E56EB-DA15-2C6B-EB5E-27A21A474010</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

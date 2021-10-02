@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CIUDAD_PAIS_FK" directorySegmentName="seg_0" id="44813164-CFB5-F7A3-5CE4-A8B081ADC9F2">
+<createdBy>cesarchs</createdBy>
+<createdTime>2021-09-25 12:30:34 UTC</createdTime>
+<generatorID>72D94AD4-E6A8-FCF8-C988-21EA76B83247</generatorID>
+<ownerDesignName>LOGICO</ownerDesignName>
+<engineerTo>
+<item key="80AC1D09-1C11-D00C-0821-B5DA8E334D64" value="true"/>
+<item key="6EACDF1D-0398-1F3C-8522-F01B4BC11F2B" value="true"/>
+</engineerTo>
+<sourcePk>580EB384-759D-BD6E-A70F-735ACA852315</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>31287BE5-BA2A-4697-D516-0738A0769425</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B5590F15-0157-61A5-09E6-103FADD6CA00</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

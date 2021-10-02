@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5475BCED-411E-3A9D-89B3-BBD25D45B44D" containerWithKeyObject="E37883FA-E9F3-3622-2316-425E93BBE17B" localFKIndex="A4319B9F-91E8-DF1F-6B5D-8F7B5D0CF613" name="DETALLE_ACTOR_PELICULA_FK">
+<sourceDDLFile>BASES1PR1.sql</sourceDDLFile>
+<createdBy>cesarchs</createdBy>
+<createdTime>2021-09-25 12:25:42 UTC</createdTime>
+<ownerDesignName>LOGICO</ownerDesignName>
+<referredTableLongName>PELICULA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>382B43E8-2312-18BF-FC34-8B39568DA950</referredTableID>
+<keyObject>CED9EBC1-DF48-309C-B9BA-6DBA65902564</keyObject>
+<referredKeyID>CED9EBC1-DF48-309C-B9BA-6DBA65902564</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_pelicula</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

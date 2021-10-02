@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E37883FA-E9F3-3622-2316-425E93BBE17B" name="DETALLE_ACTOR">
+<sourceDDLFile>BASES1PR1.sql</sourceDDLFile>
+<createdBy>cesarchs</createdBy>
+<createdTime>2021-09-25 12:25:42 UTC</createdTime>
+<ownerDesignName>LOGICO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="fk_id_actor" id="7E007FC4-4801-A510-65EB-1C72DD7CC993">
+<sourceDDLFile>BASES1PR1.sql</sourceDDLFile>
+<createdBy>cesarchs</createdBy>
+<createdTime>2021-09-25 12:25:42 UTC</createdTime>
+<ownerDesignName>LOGICO</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4ECFBF2D-90D9-A2FC-F90D-BBE3581064BE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F48ACC38-C407-508D-125D-2E720A02C15A" referredColumn="86C282E6-3CB4-BB9F-B394-2D3C8CEA37AC"/>
+</associations>
+</Column>
+<Column name="fk_id_pelicula" id="87061C14-3A03-FF7F-0E50-386706B6976B">
+<sourceDDLFile>BASES1PR1.sql</sourceDDLFile>
+<createdBy>cesarchs</createdBy>
+<createdTime>2021-09-25 12:25:42 UTC</createdTime>
+<ownerDesignName>LOGICO</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4ECFBF2D-90D9-A2FC-F90D-BBE3581064BE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5475BCED-411E-3A9D-89B3-BBD25D45B44D" referredColumn="3F604533-1E09-40E9-6A96-23DCC934BB92"/>
+</associations>
+</Column>
+<Column name="descripcion_detalle" id="B4AD664A-FB75-CDA1-D4CA-94EDA9A8FA67">
+<sourceDDLFile>BASES1PR1.sql</sourceDDLFile>
+<createdBy>cesarchs</createdBy>
+<createdTime>2021-09-25 12:25:42 UTC</createdTime>
+<ownerDesignName>LOGICO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E2073DFF-AEC9-6CD8-DB69-5EB84297DC8F</domain>
+<defaultValue>&apos;Descripcion detalle actor&apos;</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="62EE8397-F1B2-4182-7F54-00C2B3DDEDDA" name="DETALLE_ACTOR_PK">
+<sourceDDLFile>BASES1PR1.sql</sourceDDLFile>
+<createdBy>cesarchs</createdBy>
+<createdTime>2021-09-25 12:25:42 UTC</createdTime>
+<ownerDesignName>LOGICO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E007FC4-4801-A510-65EB-1C72DD7CC993"/>
+<colUsage columnID="87061C14-3A03-FF7F-0E50-386706B6976B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7DACFA71-0593-8F21-DF45-8945FCB52488" name="DETALLE_ACTOR_ACTOR_FK">
+<createdBy>cesarchs</createdBy>
+<createdTime>2021-09-25 12:25:42 UTC</createdTime>
+<ownerDesignName>LOGICO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E007FC4-4801-A510-65EB-1C72DD7CC993"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A4319B9F-91E8-DF1F-6B5D-8F7B5D0CF613" name="DETALLE_ACTOR_PELICULA_FK">
+<createdBy>cesarchs</createdBy>
+<createdTime>2021-09-25 12:25:42 UTC</createdTime>
+<ownerDesignName>LOGICO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="87061C14-3A03-FF7F-0E50-386706B6976B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

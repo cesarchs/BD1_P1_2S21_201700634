@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C8C7CB25-A821-634C-FFCE-46C80A0D1CC5" name="DETALLE_LENGUAJE">
+<sourceDDLFile>BASES1PR1.sql</sourceDDLFile>
+<createdBy>cesarchs</createdBy>
+<createdTime>2021-09-25 12:25:42 UTC</createdTime>
+<ownerDesignName>LOGICO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="fk_id_lenguaje" id="807DDA72-2DAF-51C3-6BC1-32B5E66C31CE">
+<sourceDDLFile>BASES1PR1.sql</sourceDDLFile>
+<createdBy>cesarchs</createdBy>
+<createdTime>2021-09-25 12:25:42 UTC</createdTime>
+<ownerDesignName>LOGICO</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4ECFBF2D-90D9-A2FC-F90D-BBE3581064BE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="58880D16-6D18-27F1-F634-FA53C9EBAFEB" referredColumn="FB072F9A-3AB5-68AD-AE78-1E8B6660F372"/>
+</associations>
+</Column>
+<Column name="fk_id_pelicula" id="045B2E2D-E4B2-D283-C810-A65036B4DB27">
+<sourceDDLFile>BASES1PR1.sql</sourceDDLFile>
+<createdBy>cesarchs</createdBy>
+<createdTime>2021-09-25 12:25:42 UTC</createdTime>
+<ownerDesignName>LOGICO</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4ECFBF2D-90D9-A2FC-F90D-BBE3581064BE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="659BBFC0-1C5F-A98F-B96A-EAB03F63B3F3" referredColumn="3F604533-1E09-40E9-6A96-23DCC934BB92"/>
+</associations>
+</Column>
+<Column name="descripcion_detalle" id="2DFDA05E-CF6E-68AA-B8D6-472D83E54785">
+<sourceDDLFile>BASES1PR1.sql</sourceDDLFile>
+<createdBy>cesarchs</createdBy>
+<createdTime>2021-09-25 12:25:42 UTC</createdTime>
+<ownerDesignName>LOGICO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E2073DFF-AEC9-6CD8-DB69-5EB84297DC8F</domain>
+<defaultValue>&apos;Descripcion detalle lenguaje&apos;</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5B2BD979-F1E0-660D-57EB-4B2840B29ED6" name="DETALLE_LENGUAJE_PK">
+<sourceDDLFile>BASES1PR1.sql</sourceDDLFile>
+<createdBy>cesarchs</createdBy>
+<createdTime>2021-09-25 12:25:42 UTC</createdTime>
+<ownerDesignName>LOGICO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="807DDA72-2DAF-51C3-6BC1-32B5E66C31CE"/>
+<colUsage columnID="045B2E2D-E4B2-D283-C810-A65036B4DB27"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F17457E1-E953-26D2-57E6-732700514176" name="DETALLE_LENGUAJE_LENGUAJE_FK">
+<createdBy>cesarchs</createdBy>
+<createdTime>2021-09-25 12:25:42 UTC</createdTime>
+<ownerDesignName>LOGICO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="807DDA72-2DAF-51C3-6BC1-32B5E66C31CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ED1102AB-7438-7A97-4724-02A6167A31FA" name="DETALLE_LENGUAJE_PELICULA_FK">
+<createdBy>cesarchs</createdBy>
+<createdTime>2021-09-25 12:25:42 UTC</createdTime>
+<ownerDesignName>LOGICO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="045B2E2D-E4B2-D283-C810-A65036B4DB27"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

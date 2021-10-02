@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A4FF8091-F6DE-1689-0642-4A96257668F8" containerWithKeyObject="D6882828-47B3-CCE2-5912-1618CB15445A" localFKIndex="FD9EC61E-8780-78C7-BDB8-28A402795AB4" name="ALQUILER_EMPLEADO_FK">
+<sourceDDLFile>BASES1PR1.sql</sourceDDLFile>
+<createdBy>cesarchs</createdBy>
+<createdTime>2021-09-25 12:25:42 UTC</createdTime>
+<ownerDesignName>LOGICO</ownerDesignName>
+<referredTableLongName>EMPLEADO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DED957EF-60A8-2BD5-EC88-F840FE255597</referredTableID>
+<keyObject>58083974-0D60-85AD-75B0-01832731F9B6</keyObject>
+<referredKeyID>58083974-0D60-85AD-75B0-01832731F9B6</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id_empleado</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

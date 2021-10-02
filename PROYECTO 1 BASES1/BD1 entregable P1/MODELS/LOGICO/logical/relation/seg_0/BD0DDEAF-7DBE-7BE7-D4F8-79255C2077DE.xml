@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TIENDA_CIUDAD_FK" directorySegmentName="seg_0" id="BD0DDEAF-7DBE-7BE7-D4F8-79255C2077DE">
+<createdBy>cesarchs</createdBy>
+<createdTime>2021-09-25 12:30:34 UTC</createdTime>
+<generatorID>54FA2DAE-2ED0-35BE-A939-A85AA0896D62</generatorID>
+<ownerDesignName>LOGICO</ownerDesignName>
+<engineerTo>
+<item key="80AC1D09-1C11-D00C-0821-B5DA8E334D64" value="true"/>
+<item key="6EACDF1D-0398-1F3C-8522-F01B4BC11F2B" value="true"/>
+</engineerTo>
+<sourcePk>539ACAFE-C37F-9953-EAC5-1F27292F61BC</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B5590F15-0157-61A5-09E6-103FADD6CA00</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>22965310-32FC-CE7D-BC65-FD16B0C3EFE5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TIENDA_PELICULA_TIENDA_FK" directorySegmentName="seg_0" id="262D9FBB-61EA-4491-7F1F-DADFD41CCC35">
+<createdBy>cesarchs</createdBy>
+<createdTime>2021-09-25 12:30:34 UTC</createdTime>
+<generatorID>12D2B244-798F-740D-44FA-70E528550371</generatorID>
+<ownerDesignName>LOGICO</ownerDesignName>
+<engineerTo>
+<item key="80AC1D09-1C11-D00C-0821-B5DA8E334D64" value="true"/>
+<item key="6EACDF1D-0398-1F3C-8522-F01B4BC11F2B" value="true"/>
+</engineerTo>
+<sourcePk>C54EC513-F7E3-83CC-49CB-FC94755A4C76</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>22965310-32FC-CE7D-BC65-FD16B0C3EFE5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>EFB85724-D6B0-009C-1A04-4D5F939257E5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

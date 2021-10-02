@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="3DB1D0D7-1954-16B3-BB3B-09C791DBD3E1">
+<createdBy>cesarchs</createdBy>
+<createdTime>2021-09-25 12:22:27 UTC</createdTime>
+<ownerDesignName>LOGICO</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

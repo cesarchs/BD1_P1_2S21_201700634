@@ -1,0 +1,14 @@
+Oracle SQL Developer Data Modeler 21.2.0.183.1957
+Oracle SQL Developer Data Modeler Import Log
+Date and Time: 2021-09-08 02:41:24 CST
+Design Name: Untitled_1
+RDBMS : Oracle Database 12c
+
+		All Statements: 		16
+		Imported Statements: 	15
+		Failed Statements: 		0
+		Not Recognized Statements: 	1
+
+<<<<< Not Recognized >>>>>
+SELECT * from pais
+

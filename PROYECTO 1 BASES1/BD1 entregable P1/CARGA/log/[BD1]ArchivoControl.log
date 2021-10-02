@@ -1,0 +1,99 @@
+
+SQL*Loader: Release 18.0.0.0.0 - Production on Sat Sep 25 10:03:49 2021
+Version 18.4.0.0.0
+
+Copyright (c) 1982, 2019, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   [BD1]ArchivoControl.ctl
+Character Set UTF8 specified for all input.
+
+Data File:      Entrada/BlockbusterData.csv
+  Bad File:     bad/[BD1]ArchivoControl.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 1
+Errors allowed: 50
+Bind array:     250 rows, maximum of 1048576 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table TEMPORAL, loaded from every logical record.
+Insert option in effect for this table: TRUNCATE
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+NOMBRE_CLIENTE                      FIRST     *   ;       CHARACTER            
+    NULL if NOMBRE_CLIENTE = 0X2d(character '-')
+CORREO_CLIENTE                       NEXT     *   ;       CHARACTER            
+CLIENTE_ACTIVO                       NEXT     *   ;       CHARACTER            
+FECHA_CREACION                       NEXT     *   ;       CHARACTER            
+    NULL if FECHA_CREACION = 0X2d(character '-')
+TIENDA_PREFERIDA                     NEXT     *   ;       CHARACTER            
+DIRECCION_CLIENTE                    NEXT     *   ;       CHARACTER            
+CODIGO_POSTAL_CLIENTE                NEXT     *   ;       CHARACTER            
+CIUDAD_CLIENTE                       NEXT     *   ;       CHARACTER            
+PAIS_CLIENTE                         NEXT     *   ;       CHARACTER            
+FECHA_RENTA                          NEXT     *   ;       CHARACTER            
+    NULL if FECHA_RENTA = 0X2d(character '-')
+FECHA_RETORNO                        NEXT     *   ;       CHARACTER            
+    NULL if FECHA_RETORNO = 0X2d(character '-')
+MONTO_A_PAGAR                        NEXT     *   ;       CHARACTER            
+FECHA_PAGO                           NEXT     *   ;       CHARACTER            
+    NULL if FECHA_PAGO = 0X2d(character '-')
+NOMBRE_EMPLEADO                      NEXT     *   ;       CHARACTER            
+CORREO_EMPLEADO                      NEXT     *   ;       CHARACTER            
+EMPLEADO_ACTIVO                      NEXT     *   ;       CHARACTER            
+TIENDA_EMPLEADO                      NEXT     *   ;       CHARACTER            
+    NULL if TIENDA_EMPLEADO = 0X2d(character '-')
+USUARIO_EMPLEADO                     NEXT     *   ;       CHARACTER            
+CONTRASENA_EMPLEADO                  NEXT     *   ;       CHARACTER            
+DIRECCION_EMPLEADO                   NEXT     *   ;       CHARACTER            
+CODIGO_POSTAL_EMPLEADO               NEXT     *   ;       CHARACTER            
+CIUDAD_EMPLEADO                      NEXT     *   ;       CHARACTER            
+PAIS_EMPLEADO                        NEXT     *   ;       CHARACTER            
+NOMBRE_TIENDA                        NEXT     *   ;       CHARACTER            
+ENCARGADO_TIENDA                     NEXT     *   ;       CHARACTER            
+DIRECCION_TIENDA                     NEXT     *   ;       CHARACTER            
+CODIGO_POSTAL_TIENDA                 NEXT     *   ;       CHARACTER            
+CIUDAD_TIENDA                        NEXT     *   ;       CHARACTER            
+PAIS_TIENDA                          NEXT     *   ;       CHARACTER            
+TIENDA_PELICULA                      NEXT     *   ;       CHARACTER            
+    NULL if TIENDA_PELICULA = 0X2d(character '-')
+NOMBRE_PELICULA                      NEXT     *   ;       CHARACTER            
+DESCRIPCION_PELICULA                 NEXT     *   ;       CHARACTER            
+ANO_LANZAMIENTO                      NEXT     *   ;       CHARACTER            
+DIAS_RENTA                           NEXT     *   ;       CHARACTER            
+COSTO_RENTA                          NEXT     *   ;       CHARACTER            
+DURACION                             NEXT     *   ;       CHARACTER            
+COSTO_POR_DANO                       NEXT     *   ;       CHARACTER            
+CLASIFICACION                        NEXT     *   ;       CHARACTER            
+LENGUAJE_PELICULA                    NEXT     *   ;       CHARACTER            
+CATEGORIA_PELICULA                   NEXT     *   ;       CHARACTER            
+ACTOR_PELICULA                       NEXT     *   ;       CHARACTER            
+
+value used for ROWS parameter changed from 250 to 99
+
+Table TEMPORAL:
+  89471 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                1047222 bytes(99 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          1
+Total logical records read:         89471
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on Sat Sep 25 10:03:49 2021
+Run ended on Sat Sep 25 10:03:54 2021
+
+Elapsed time was:     00:00:05.17
+CPU time was:         00:00:01.74
